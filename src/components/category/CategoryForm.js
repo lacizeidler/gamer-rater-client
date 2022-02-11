@@ -24,7 +24,7 @@ export const CategoryForm = () => {
             </h2>
             <fieldset>
                 <div>
-                    <label>
+                    <label>Label</label>
                         <input
                         type="text"
                         name="label"
@@ -33,7 +33,6 @@ export const CategoryForm = () => {
                         value={newCategory.label}
                         onChange={changeCategoryState}
                         />
-                    </label>
                 </div>
             </fieldset>
             <button

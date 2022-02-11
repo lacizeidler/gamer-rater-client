@@ -28,8 +28,8 @@ export const CategoryList = () => {
                 {
                     categories.map(
                         (category) => {
-                            return <section>
-                                <div key={`category__${category.id}`}>{category.label}</div>
+                            return <section key={`category__${category.id}`}>
+                                <p>{category.label}</p>
                             </section>
                         }
                     )
